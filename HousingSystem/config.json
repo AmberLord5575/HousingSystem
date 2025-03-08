@@ -1,0 +1,25 @@
+{
+    "database": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "cwrp"
+    },
+    "availableHouses": [
+        "5146", "6030", "943", "6021", "5029", "4017-B", "852","640", "5002A","5002B","5004A", "5004B", "5007", "5005"
+    ],
+    "commands": {
+        "listHouses": "listhouses",
+        "buyHouse": "buyhouse",
+        "sellHouse": "sellhouse"
+    },
+    "notifications": {
+        "invalidHouse": "Invalid house! Use /listhouses to check available properties.",
+        "houseOwned": "This house is already owned by ",
+        "houseBought": "You successfully bought the house at postal ",
+        "houseNotOwned": "This house is not owned!",
+        "houseNotOwnedByPlayer": "You do not own this house!",
+        "houseSold": "You successfully sold your house at postal ",
+        "playerHouses": "You own the following houses: "
+    }
+}
